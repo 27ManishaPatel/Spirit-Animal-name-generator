@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(255, 239, 220);
+}
+.wrapper{
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  text-align: center;
+}
+.wrapper h1{
+  margin: auto;
+  padding-bottom: 10px;
+  width: 60%;
+  border-bottom: 1px solid rgb(164, 152, 152);
+}
+.wrapper-option{padding-bottom: 30px;
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.dragon-image{
+  width: 50%;
+  border-radius: 10%;
+}
+.name--input-button{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+#inputName {
+  margin: auto;
+  width: 60%;
+  height: 30px;
+  border: 2px solid rgb(222, 205, 205);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#generateNameBtn {
+  margin: auto;
+  width: 60%;
+  font-size: 20px;
+ background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+padding: 10px;
+border: none;
+box-shadow: 2px 2px 2px 2px  rgb(34,193,195);
+}
+
+#animalNamePara {
+  margin: auto;
+  font-size: 20px;
+  background-color: rgb(248, 208, 159);
+  padding: 5px;
+  width: 70%;
+  height: 50px;
+  border: 1px solid rgb(167, 119, 23);
+}
+@media only screen and (max-width: 720px){
+  .wrapper{
+    width: 95%;
+    margin-top: 20px;
+  }
+  .wrapper h1{
+    width: 80%;
+  }
+  .wrapper-option{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .dragon-image{
+    width: 70%;
+  }
+  .name--input-button{
+    width: 95%;
+  }
+  #inputName {
+    width: 80%;
+  }
+  
+  #generateNameBtn {
+    width: 80%;
+    font-size: 16px;
+  }
+  #animalNamePara {
+    font-size: 18px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .wrapper-option{
+    flex-direction: column;
+    text-align: left;
+  }
+}

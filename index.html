@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Spirit animal name generator</title>
+</head>
+
+<body>
+  <header class="wrapper">
+    <h1 class="spirit-animal-heading">Spirit Animal Name Generator</h1>
+  </header>
+  <main class="wrapper">
+    <div class="wrapper-option">
+      <div>
+        <input type="radio" id="hoverInput" name="spirit-animal">
+        <label for="hoverInput"> Hovers The Input</label>
+      </div>
+      <div>
+        <input type="radio" id="whenTyping" name="spirit-animal">
+        <label for="whenTyping"> When Typing</label>
+      </div>
+      <div>
+        <input type="radio" id="btnClick" name="spirit-animal">
+        <label for="btnClick"> Click Btn</label>
+      </div>
+    </div>
+    <div class="wrapper-image">
+      <img src="/dragon.jpeg" alt="dragon" class="dragon-image">
+    </div>
+    <div class="name--input-button">
+      <input type="text" id="inputName" placeholder="Type Your Name" name="person name">
+      <button type="button" id="generateNameBtn">Generate your Spirit Animal</button>
+    </div>
+    <div class="wrapper">
+      <p id="animalNamePara"></p>
+    </div>
+  </main>
+    <script src="script.js"></script>
+</body>
+</html>
